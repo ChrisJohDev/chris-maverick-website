@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<!-- Copyright 2003 Maverick Webdesign a part of the JOHANNESSON INFORMATION TECHNOLOGY GROUP
+-->
+
+<!-- Any of the code can be used freely under the condition that the above copyright notice is included
+-->
+
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<meta name="generator" content="Maverick Webdesign">
+		<title>title:TTL001</title>
+		<style type="text/css" media="screen"><!--
+#layer1          { position: absolute; top: 185px; left: 8px; width: 129px; height: 258px; z-index: 1; visibility: visible }
+#layer2    { position: absolute; top: 698px; left: 424px; width: 207px; height: 63px; visibility: visible; display: block }
+#layer3    { text-align: left; position: absolute; top: 225px; left: 264px; width: 657px; height: 102px; visibility: visible; display: block }
+#layer4     { position: absolute; z-index: 3; top: 3px; left: 1px; visibility: visible; display: block }
+#layer5    { position: absolute; top: 457px; left: 263px; width: 656px; height: 149px; visibility: visible; display: block }
+--></style>
+<script language="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+		<link title="ChrisStyleSheet" href="../public_html/lib/stylesheets/css/chrisStyle1.css" media="screen" rel="stylesheet" rev="1.0">
+		<link title="TableStyleSheet" href="../public_html/lib/stylesheets/css/tableStyle.css" media="screen" rel="stylesheet" rev="1.0">
+		<script type="text/JavaScript" src="../public_html/lib/scripts/javascript/chrisJS1.js"></script>
+			<script type="text/javascript"><!--
+maverick();
+ --></script>
+	</head>
+
+	<body onload="MM_preloadImages('../public_html/lib/graphics/logos/chrisName2.gif')" alink=#CD853F vlink=#CD853F link=#0000CD>
+		<div id="layer1" class="navBar">navbar:NAV001</div>
+		<div id="layer2" class="maverick"><a href="http://www.maverick-web.com"> maverick:MAV001<br>maverick:MAV002<br>maverick:MAV003</a></div>
+		<div id="layer3"><table width="100%" valign="middle" align="center" height="100%" width="100%"><tr align="center" valign="middle"><td align="left" valign="middle" width="100%" height="100%">
+			<div id="layer4" class="pageText">text:TXT001</div></td></tr></table>
+		</div>
+		<div id="layer5"><table class="mainTable"><caption>My Present & Future Whereabouts</caption><tr><th>Employer</th><th>Location</th><th>Dates</th><th>Available From</th></tr>table:TBL001
+				<tr>
+					<td></td>
+				</tr>
+			</table></div>
+		<table width="962" border="0" cellspacing="0" cellpadding="0" cool gridx="16" gridy="16" height="738" showgridx showgridy>
+			<tr height="16">
+				<td width="32" height="737" rowspan="2"></td>
+				<td width="224" height="737" rowspan="2" valign="top" align="left" xpos="32"><img src="image:IMG001" alt="Chris Johannesson" height="144" width="128" usemap="#image:IMG001" border="0"></td>
+				<td width="705" height="16"></td>
+				<td width="1" height="16"><spacer type="block" width="1" height="16"></td>
+			</tr>
+			<tr height="721">
+				<td width="705" height="721" valign="top" align="left" xpos="256"><a href="http://chris.maverick-web.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','../public_html/lib/graphics/logos/chrisName2.gif',1)"><img name="Image1" border="0" src="../public_html/lib/graphics/logos/chrisName1.gif" alt=" Chris Johannesson - Bass Player "  align="center"></a></td>
+				<td width="1" height="721"><spacer type="block" width="1" height="721"></td>
+			</tr>
+			<tr height="1" cntrlrow>
+				<td width="32" height="1"><spacer type="block" width="32" height="1"></td>
+				<td width="224" height="1"><spacer type="block" width="224" height="1"></td>
+				<td width="705" height="1"><spacer type="block" width="705" height="1"></td>
+				<td width="1" height="1"></td>
+			</tr>
+		</table>
+		<map name="image:IMG001"></map>
+	</body>
+</html>
+

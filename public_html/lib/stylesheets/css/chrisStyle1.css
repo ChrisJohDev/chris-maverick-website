@@ -1,0 +1,7 @@
+body             { background-color: #00f; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular, Sans-Sarif }
+.maverick { color: #0000cd; font: 0.7em Arial, Helvetica, Geneva, Swiss, SunSans-Regular, sans-serif; text-decoration: none; text-align: center; text-transform: none; padding: 3px; visibility: visible }
+a   { text-decoration: none }
+.head1 { color: red; font-style: normal; font-weight: bold; font-size: 2em; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular, "Sans Serif"; text-decoration: underline; background-color: #f5f5f5; text-align: center }
+.update { color: #32cd32; font-style: normal; font-weight: bold; font-size: 0.9em; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular, "Sans Serif"; background-color: #dcdcdc; text-align: center; border: double 1pt #ff4500 }
+.default { color: black; font-style: normal; font-weight: normal; font-size: 1em; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular, "Sans Serif"; text-align: center }
+

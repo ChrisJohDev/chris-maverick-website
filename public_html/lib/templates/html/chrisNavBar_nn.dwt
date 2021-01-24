@@ -1,0 +1,41 @@
+<form class="navBarTable" action="/cgi-bin/chrisHome.cgi" method="post" name="NavBar">
+	<table  width="172"  cellspacing="0" cellpadding="2" align="center" height="352">
+		<caption class="navBarCaption">* Navigation Bar *</caption>
+		<tr>
+			<td align="center" valign="middle" >
+				<input class="navBarButton" name="home" type="image" onclick="homeRun()" value="Home" src="../public_html/lib/graphics/buttons/chrisButtonHome_NN.gif">
+			</td>
+		</tr>
+		<tr>
+			<td  valign="middle" align="center">
+				<input class="navBarButton" name="musicCV" type="image" onClick="musicCVRun()" value="Music Resume/CV" src="../public_html/lib/graphics/buttons/chrisButtonMusicCV_NN.gif" />
+            	</td>
+		</tr>
+		<tr>
+			<td  valign="middle" align="center">
+				<input class="navBarButton" name="contact" type="image" onClick="contactMeRun()" value="Contact" src="../public_html/lib/graphics/buttons/chrisButtonContact_NN.gif" />
+            	</td>
+		</tr>
+		<tr>
+			<td valign="middle" align="center">
+				<input class="navBarButton" name="info" type="image" onclick="infoRun()" value="Information" src="../public_html/lib/graphics/buttons/chrisButtonInformation_NN.gif" />
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle" align="center">
+				<input class="navBarButton" name="downloads" type="image" onclick="downloadsRun()" value="Downloads" src="../public_html/lib/graphics/buttons/chrisButtonDownloads_NN.gif" />
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle" align="center">
+				<input class="navBarButton" name="links" type="image" onclick="linksRun()" value="Links" src="../public_html/lib/graphics/buttons/chrisButtonLinks_NN.gif" />
+			</td>
+		</tr>
+		<tr class="hideRow">
+			<td><input type="submit" name="sendInfo" value="" border="0"></td>
+		</tr>
+		<tr class="hideRow">
+			<td><input type="hidden" name="sendData" size="1" border="0"></td>
+		</tr>
+	</table>
+</form>

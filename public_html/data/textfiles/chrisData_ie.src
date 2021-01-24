@@ -1,0 +1,10 @@
+maverick:MAV001	Developed and Maintained by:
+maverick:MAV002	Maverick Webdesign
+maverick:MAV003	Copyright &copy 2003
+script:JSS002	../public_html/lib/scripts/javascript/chrisJS1.js
+style:CSS001	../public_html/lib/stylesheets/css/chrisStyle1_ie.css
+style:CSS002	../public_html/lib/stylesheets/css/tableStyle.css
+logo:LOG001	../public_html/lib/graphics/logos/chrisName1.gif
+logo:LOG002	../public_html/lib/graphics/logos/chrisName2.gif
+navbar:NAV001	../public_html/lib/templates/html/chrisNavBar_ie.dwt
+image:IMG001	../public_html/lib/graphics/images/chris.jpg

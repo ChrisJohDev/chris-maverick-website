@@ -1,0 +1,35 @@
+<body><form action="/cgi-bin/chrisHome.cgi" method="post" name="NavBar">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2" align="center" height="100%">
+			<caption class="navBarCaption">Navigation Bar</caption>
+			<tr>
+				<td align="center" valign="middle"><spacer type="block" width="1" height="16"></td>
+				<td align="center" valign="middle" ><button class="navBarButton" name="home" type="button" onclick="homeRun()">Home</button></td>
+				<td align="center" valign="middle"><spacer type="block" width="1" height="16"></td>
+			</tr>
+			<tr>
+				<td align="center" valign="middle"><spacer type="block" width="1" height="16"></td>
+				<td  valign="middle" align="center"><button class="navBarButton" name="musicCV" type="button" onclick="musicCVRun()">Music Resume/CV</button></td>
+				<td align="center" valign="middle"><spacer type="block" width="1" height="16"></td>
+			</tr>
+			<tr>
+				<td align="center" valign="middle"><spacer type="block" width="1" height="16"></td>
+				<td valign="middle" align="center"><button class="navBarButton" name="businessCV" type="button" onclick="businessCVRun()">Business Resume</button></td>
+				<td align="center" valign="middle"><spacer type="block" width="1" height="16"></td>
+			</tr>
+			<tr>
+				<td align="center" valign="middle"><spacer type="block" width="1" height="16"></td>
+				<td valign="middle" align="center"><button class="navBarButton" name="info" type="input" onclick="infoRun()">Information</button></td>
+				<td align="center" valign="middle"><spacer type="block" width="1" height="16"></td>
+			</tr>
+			<tr>
+				<td align="center" valign="middle"><spacer type="block" width="1" height="16"></td>
+				<td valign="middle" align="center"><button class="navBarButton" name="downloads" type="button" onclick="downloadsRun()">Downloads</button></td>
+				<td align="center" valign="middle"><spacer type="block" width="1" height="16"></td>
+			</tr>
+			<tr>
+				<td align="center" valign="middle"><input type="submit" class="hidden" name="sendInfo" value="" border="0"></td>
+				<td valign="middle" align="center"><button class="navBarButton" name="links" type="button" onclick="linksRun()">Links</button></td>
+				<td align="center" valign="middle"><input type="hidden" name="sendData" size="1" border="0"></td>
+			</tr>
+		</table>
+	</form></body>

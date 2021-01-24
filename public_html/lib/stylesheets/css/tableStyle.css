@@ -1,0 +1,19 @@
+th { font-style: normal; font-weight: bold; font-size: 1em; text-decoration: underline; text-align: left; text-transform: uppercase; vertical-align: middle; padding: 5px; position: relative; top: 10px; height: 20px }
+.mStyle { border: gray }
+table { color: black; font-style: normal; font-weight: normal; font-size: 0.8em; position: relative; width: 100%; height: 100% }
+.navigation { width: 100%; height: 100% }
+td { padding: 5px }
+.empl { border: gray; width: 150px }
+.wPlace { border: gray; width: 140px }
+.year { border-bottom: none gray; border-left: none #ffd700; width: 90px }
+caption { color: #daa520; font-style: oblique; font-weight: bold; font-size: 1.6em; font-family: "Sans Serif"; text-decoration: underline; background-color: #f5f5f5; border-top: 0.5em ridge #ffd700; border-right: 0.5em ridge #ffd700; border-left: 0.5em ridge #ffd700 }
+.center { background-color: transparent; text-align: center; vertical-align: top; padding: 3px; border: none }
+.hidden { visibility: hidden }
+.mainTable { color: black; font-style: normal; font-weight: normal; font-size: 0.8em; font-family: FontName, Arial, Helvetica, Geneva, Swiss, SunSans-Regular, Sans-Sarif; background-color: #dcdcdc; border: ridge 1em #ffd700 }
+.pageText { color: #191970; background-color: #4682b4; padding: 5px; border: ridge 4px blue }
+.navBarCaption { color: #b0e0e6; font-style: normal; font-weight: bold; font-size: 1.2em; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular, sans-serif; text-decoration: underline; background-color: #00008b; text-align: center; padding: 3px; border: ridge 3px #ffd700 }
+.navBar   { text-align: center; border: ridge 4px #ffd700; width: 100%; height: 100%; visibility: visible; clip: auto }
+.navBarButton { color: #8b4513; font-weight: bold; font-size: 0.95em; background: url(../../graphics/buttons/chrisButton.gif) no-repeat; text-align: center; padding: 2px; position: relative; top: 10px; left: -6px; width: 129px; height: 42px }
+th { font-style: normal; font-weight: bold; font-size: 1em; text-decoration: underline; text-align: left; text-transform: uppercase; vertical-align: middle; padding: 5px; position: relative; top: 10px; height: 20px }
+.hidden { visibility: hidden }
+#NavBar  { background-color: #0000cd; position: absolute; z-index: 1; top: 185px; left: 8px; width: 141px; height: 350px; visibility: visible }

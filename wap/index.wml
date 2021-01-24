@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.3//EN" "http://www.wapforum.org/DTD/wml_1.3.xml">
+
+<!--
+File name:	index.wml
+
+Copyright:	Maverick Webdesign 2003
+Creator:		Chris Johannesson
+
+Note:		All content is the property of Maverick Webdesign and may not be used without the 			prior written consent of the property owner.
+
+Maverick Webdesign Ltd. is a wholly owned subsidiary of JOHANNESSON INFORMATION TECHNOLOGY LTD.
+
+-->
+
+<wml>
+
+<!-- ********** HOME card START ********** -->
+<card id="splash1" title="Chris Johannesson">
+<p><br /></p>
+<p align="center"><big><b>Bass Player<br />Official Web site</b></big><br /><br />Press "Enter" for index.</p>
+<do type="accept" label="Enter">
+	<go href="#index" />
+</do>
+</card>
+
+<!-- ********** HOME card END ********** -->
+
+<!-- ****** INDEX card START ****** -->
+
+<card id="index" title="Chris Johannesson">
+<p align="center"><b>Index</b></p>
+<p align="left">
+<anchor title="Present">
+	<go href="#present" />Present Whereabouts
+</anchor><br />
+<anchor title="Resume">
+	<go href="#resume" />Resume C/V
+</anchor><br />
+<anchor title="Contact">
+	<go href="#contact" />Contac Information
+</anchor><br />
+<anchor title="Info">
+	<go href="#info" />Additional Information
+</anchor>
+</p>
+<p align="center">
+<anchor title="Maverick">
+	<go href="#mav" />Sponsored By:
+</anchor>
+</p>
+</card>
+
+<!-- ****** INDEX card END ****** -->
+
+<!-- ******** Main cards START ********-->
+
+<card id="present" title="Chris Johannesson">
+<!-- Contains present information about my whereabouts.-->
+<p align="center"><big><b>Present Whereabouts</b></big></p>
+<p align="center"><b><br />Available from:</b><br />September 11 2003</p>
+<p align="center"><br /><br />
+<big><b>Presently working for:</b></big><br /><br />
+</p>
+<p  align="left">
+<b>Employer: </b><br />NCL<br />
+<b>Dates: </b><br />Jul 9 - Sep 10 2003
+</p>
+<p align="center"><br /><br />*** End of Page ***</p>
+<do type="accept" label="Index">
+	<go href="#index" />
+</do>
+</card>
+
+
+<card id="resume" title="Chris Johannesson">
+<!--Contains  my last 5 engagements.-->
+<p align="center"><b>Last 5 Engagements</b></p>
+<p align="left"><br />
+<b>Employer:</b><br />Norwegian Cruise Line<br />
+<b>Dates:</b><br />Jul 9 - Sep 10 2003<br />
+<br /><b>Employer:</b><br />Saga Cruises<br />
+<b>Dates:</b><br />Apr 19 - Jun 18 2003<br />
+<br /><b>Employer:</b><br />Norwegian Cruise Line<br />
+<b>Dates:</b><br />Feb 2 - Mar 31 2003<br />
+<br /><b>Employer:</b><br />Saga Cruises<br />
+<b>Dates:</b><br />Sep 12 - Dec 15 2002<br />
+<br /><b>Employer:</b><br />Cunard / Seabourn<br />
+<b>Dates:</b><br />Feb 11 2001 - Aug 23 2002<br />
+</p>
+
+<p align="center"><br /><br />*** End of Page ***</p>
+<do type="accept" label="Index">
+	<go href="#index" />
+</do>
+</card>
+
+
+<card id="contact" title="Chris Johannesson">
+<!-- Contains my contact details.-->
+<p align="center"><b><big>Contact Info.</big></b><br />
+Prefered method of contact is by email, since I am very difficult to reach through other means.
+</p>
+<p><br />
+<anchor title="email">
+	<go href="#email" />Email addresses
+</anchor><br />
+<anchor title="Telephone">
+	<go href="#tele" />Telephone Numbers
+</anchor>
+<anchor title="Address">
+	<go href="#address" />Postal Addresses
+</anchor>
+<anchor title="Index">
+	<go href="#index" />Return to Index
+</anchor>
+</p>
+<p align="center"><br /><br />*** End of Page ***</p>
+</card>
+
+
+<card id="info" title="Chris Johannesson">
+<!-- Contains additional information.-->
+<p>
+<b>Chris </b> has a distinguished career with more than <b>27 years </b> experience as a professional musician. He has for the last several years worked in the cruise industry as a <b>bassist </b> in the main showband / orchestras. He has a broad experience of most musical styles ranging from small Jazz combos through Latin, Pop, Blues, Country, to Big bands. He has worked for several cruise lines and has performed with acts such as Jennifer Holliday, Elain Delmar, Jeff Hooper, Ray Allan, Ian Finkle etc.<br /><br />For further information and bookings please visit his official home site at:<br /><b>http://chris.maverick-web.com </b> or choose <b>"Contact Information" </b>from the <b>"Index" </b>menu for email addresses, telephone numbers, and postal addresses.
+</p>
+<p align="center"><br /><br />*** End of Page ***</p>
+<do type="accept" label="Index">
+	<go href="#index" />
+</do>
+</card>
+
+
+<card id="mav" title="Maverick Webdesign">
+<p align="left"><br />
+<b>Maverick Webdesign </b>specializes in Dynamic web site design in <b>HTML, XHTML, DHTML, XML, WML</b>. We also offer programming solutions in <b>Perl </b>and <b>JavaScript </b>for <b>CGI </b>scripts and interactive webpages. For further information please go to<br /><b>http://www.maverick-web.com</b></p><p align="center"><br /><br /> Maverick Webdesign is a part of JOHANNESSON INFORMATION TECHNOLOGY LTD.
+</p>
+<p align="center"><br /><br />*** End of Page ***</p>
+<do type="accept" label="Index">
+	<go href="#index" />
+</do>
+</card>
+
+<!-- ******** Main cards END ******** -->
+
+<!-- ****** Contact Cards START ****** -->
+
+<card id="email" title="Chris Johannesson">
+<!-- Contains email addresses.-->
+<p align="center"><big><b>Email</b></big><br /></p>
+<p align="left"><br />
+<b>Main email address:</b><br />
+chris@jcg-web.co.uk<br />
+<br /><b>Additional email address:</b><br />
+chris@maverick-web.com
+</p>
+<p align="center"><br /><br />*** End of Page ***</p>
+<do type="accept" label="Contact">
+	<go href="#contact" />
+</do>
+</card>
+
+
+<card id="tele" title="Chris Johanneson">
+<!-- Contains my telephone numbers.-->
+<p align="center"><big><b>Telephone</b></big></p>
+<p align="left"><br />
+<b>Main Telephone:</b><br />
+0787-664-0659<br />(In the U.K.)<br /><br />
++44-787-664-0659<br />(Outside the U.K.)<br />
+<br /><b>Additional Numbers:</b><br />
+0325-30334<br />(In Sweden)<br />
+<br />+46-325-30334 <br />(Outside Sweden)
+</p>
+<p align="center"><br /><br />*** End of Page ***</p>
+<do type="accept" label="Contact">
+	<go href="#contact" />
+</do>
+</card>
+
+
+<card id="address" title="Chris Johannesson">
+<!-- Contains my postal addreesses.-->
+<p align="center"><big><b>Postal Address</b></big></p>
+<p align="left"><br />
+<b>Home address:</b><br />
+6 Inglewood Road<br />
+London, NW6 1QZ<br />
+England<br />
+<br /><b>Additional address:</b><br />
+Skogsborgsvagen 5<br />
+512 63  Ostra Frolunda<br />
+Sweden
+</p>
+<p align="center"><br /><br />*** End of Page ***</p>
+<do type="accept" label="Contact">
+	<go href="#contact" />
+</do>
+</card>
+
+<!-- ****** Contact cards END ****** -->
+
+<card id="spare">
+<!-- Contains no information it's Spare.-->
+<p align="center"><br /><br />*** End of Page ***</p>
+<do type="accept" label="Index">
+	<go href="#index" />
+</do>
+</card>
+</wml>
+

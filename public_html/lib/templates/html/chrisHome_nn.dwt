@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3c.org/TR/html4/loose.dtd">
+
+<!-- Copyright 2003 Maverick Webdesign a part of the JOHANNESSON INFORMATION TECHNOLOGY GROUP
+-->
+
+<!-- Any of the code can be used freely under the condition that the above copyright notice is included
+-->
+<!--		Date Created: 
+
+************File Name: chrisHome_nn.dwt   ************
+ 
+Purpose:  For Mozilla type browsers
+-->
+
+<html>
+	<head>
+		<meta http-equiv="expires" value="Mon, 17 Mar 2003 01:00:00 GMT">
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<meta name="generator" content="Maverick Webdesign">
+		<title>title:TTL001</title>
+		<script language="JavaScript">
+<!--
+function MAV_swapImgRestore() { //v3.0
+  var i,x,a=document.MAV_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MAV_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MAV_p) d.MAV_p=new Array();
+    var i,j=d.MAV_p.length,a=MAV_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MAV_p[j]=new Image; d.MAV_p[j++].src=a[i];}}
+}
+
+function MAV_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MAV_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MAV_swapImage() { //v3.0
+  var i,j=0,x,a=MAV_swapImage.arguments; document.MAV_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MAV_findObj(a[i]))!=null){document.MAV_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+		</script>
+		<link href="style:CSS001" title="ChrisStyleSheet" media="screen" rel="stylesheet" rev="1.0">
+		<link href="style:CSS002" title="TableStyleSheet" media="screen" rel="stylesheet" rev="1.0">
+		<script src="script:JSS002" type="text/JavaScript">
+		</script>
+		<script type="text/javascript"><!--
+			maverick();
+ 			-->
+ 		</script>
+ 	</head>
+
+	<body onload="MAV_preloadImages('logo:LOG002')" alink=#CD853F vlink=#CD853F link=#0000CD>
+	<div class="backGround">
+	<div class="topImage">
+		<img class="imageFrame" src="image:IMG001" alt="Chris Johannesson" height="144" width="116" align="absmiddle">
+	</div>
+	<div class="logo">
+		<a href="http://chris.maverick-web.com" onMouseOut="MAV_swapImgRestore()" onMouseOver="MAV_swapImage('Image1','','logo:LOG002',1)">
+			<img name="Image1" border="0" src="logo:LOG001" alt=" Chris Johannesson - Bass Player "  align="center">
+		</a>
+	</div>
+	<div class="navBar">navbar:NAV001</div>
+	<div class="main">
+		<p class="mainText">text:TXT001</p>
+		<p class="table">
+			<table class="mainTable">
+				<caption class="navBarCaption">My Present &amp Future Whereabouts</caption>
+					<tr>
+						<th>Employer</th>
+						<th>Location</th>
+						<th>Dates</th>
+						<th>Available From</th>
+					</tr>
+					table:TBL001
+			</table>
+		</p>
+	
+	</div>
+	<div class="table">
+	
+	</div>
+	</div>
+	</body>
+</html>
